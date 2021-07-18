@@ -11,6 +11,7 @@
 }
 
 
+
 body{
     background-color: #fff;
     font-family: 'Nunito Sans';
@@ -155,4 +156,28 @@ img{
 .footer{
     background-color: #212832;
     color: #a6a9ad !important;
+}
+
+
+
+@media(max-width:768px){
+    .dropdown-menu-width {
+        min-width: 300px !important;  
+    }
+    .doci-menu{
+        width: 300px !important;
+    }
+
+}
+
+
+
+@media(max-width:468px){
+    .dropdown-menu-width {
+        min-width: 300px !important;  
+    }
+    .doci-menu{
+        width: 300px !important;
+    }
+
 }
