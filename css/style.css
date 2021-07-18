@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --our-blue:#0061f2;
+    --our-grey:#212832;
+}
+
+
+body{
+    background-color: #fff;
+    font-family: 'Nunito Sans';
+}
+
+img{
+    width: 100%;
+}
+
+.bg-blue{
+    background-color:var(--our-blue);
+}
+
+
+.bg-grey{
+    background-color:var(--our-grey);
+}
+
+.header{
+    font-size: smaller;
+}
+
+.dropdown-menu-width {
+    min-width: 720px !important;  
+}
+
+
+.dropping-items-1{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.dropping-items-1:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.btn-header{
+    color: var(--our-blue);
+    background-color: #fff;
+}
+.doci-menu{
+    width: 324px !important;
+}
+
+.new-class{
+    margin-top: 50%;
+}
+
+.blue-circle{
+    color: var(--our-blue);
+    background-color: lightblue;
+    border-radius:100%;
+    align-self: center;
+}
+
+.my-btn{
+    background-color: var(--our-blue);
+    font-weight: 400;
+}
+
+.main-image p{
+    font-size: 20px;
+}
+
+.new-circle{
+    height: 130px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: #fff;
+}
+
+.new-circle-2{
+    margin-top:-50px;
+    height: 130px;
+    border-radius: 0% 0% 100% 100%;
+}
+
+.circles{
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.card-portfolio{
+    position: relative;
+}
+
+.card-portfolio img{
+    border-radius: 5px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: var(--our-blue);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.card-portfolio:hover .overlay{
+    opacity: 0.9;
+}
+
+.text{
+    color: #fff;
+    font-weight: 900;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact{
+    background-color: lightblue;
+    padding: 0;
+}
+
+.contact .new-circle{
+    height: 50px;
+}
+.contact .circles{
+    width: 70px;
+    height: 70px;
+}
+
+.contact .new-circle-2{
+    margin-top:-50px;
+    height: 50px;
+    border-radius: 0% 0% 100% 100%;
+    z-index: 10;
+}
+
+.footer{
+    background-color: #212832;
+    color: #a6a9ad !important;
+}
