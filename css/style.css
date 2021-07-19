@@ -34,6 +34,20 @@ img{
     font-size: smaller;
 }
 
+.dropdown-menu{
+    padding: 0;
+}
+.shift{
+    transform: translate3d(-500px, 0px, 0px)!important;
+}
+
+.clear-pad{
+    padding: 0;
+}
+.hide-me{
+    overflow: hidden;
+}
+
 .dropdown-menu-width {
     min-width: 720px !important;  
 }
@@ -157,7 +171,13 @@ img{
     background-color: #212832;
     color: #a6a9ad !important;
 }
+.pads{
+    justify-items: center;
+}
 
+.shadow-me{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 @media(max-width:768px){
