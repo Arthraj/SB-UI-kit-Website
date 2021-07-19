@@ -10,8 +10,6 @@
     --our-grey:#212832;
 }
 
-
-
 body{
     background-color: #fff;
     font-family: 'Nunito Sans';
@@ -180,7 +178,7 @@ img{
 }
 
 
-@media(max-width:768px){
+@media(max-width:990px){
     .dropdown-menu-width {
         min-width: 300px !important;  
     }
@@ -188,7 +186,7 @@ img{
         width: 300px !important;
     }
     .shift{
-        transform: translate3d(0, 0px, 0px)!important;
+    transform: translate3d(0px, 0px, 0px)!important;
     }
 
 }
@@ -202,5 +200,6 @@ img{
     .doci-menu{
         width: 300px !important;
     }
+    
 
 }
